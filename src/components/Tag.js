@@ -39,7 +39,7 @@ class Tag extends Component {
         className={classNames.remove}
         removeComponent={props.removeComponent}
         onClick={props.onDelete}
-        readOnly={readOnly}
+        readOnly={false}
       />
     </span>
     );
